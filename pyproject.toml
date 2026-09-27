@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+
+
+[project]
+name = "micguard"
+version = "0.1.0"
+description = "Device-level microphone mute indicator and enforcer for macOS, Windows and Linux"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Scott Peterman" }]
+dependencies = [
+    "PySide6>=6.5",
+    "pycaw>=20240210; sys_platform == 'win32'",
+    "pulsectl>=23.5; sys_platform == 'linux'",
+]
+
+[project.scripts]
+micguard-cli = "micguard.cli:main"
+
+[project.gui-scripts]
+micguard = "micguard.app:main"
+
+[tool.setuptools.packages.find]
+include = ["micguard*"]
