@@ -17,15 +17,15 @@ Mic Guard mutes at the device level and keeps a small floating indicator on scre
 
 **Always-on indicator over your work**
 
-![Mic Guard indicator over an IDE](screenshots/ide-w-mic-control.png)
+![Mic Guard indicator over an IDE](https://raw.githubusercontent.com/scottpeterman/micguard/main/screenshots/ide-w-mic-control.png)
 
 **Settings**
 
-![Mic Guard settings](screenshots/mic-guard-settings.png)
+![Mic Guard settings](https://raw.githubusercontent.com/scottpeterman/micguard/main/screenshots/mic-guard-settings.png)
 
 **Running on Windows**
 
-![Mic Guard on Windows](screenshots/windows.png)
+![Mic Guard on Windows](https://raw.githubusercontent.com/scottpeterman/micguard/main/screenshots/windows.png)
 
 
 Hot Mic Protection: A floating red/green mic indicator that mutes every audio input at the **device level**, so the mute applies to Teams, Zoom, browsers, and every other app. It also enforces the mute: if anything unmutes an input or raises its level while you're muted, Mic Guard sounds an alarm and mutes it again.
